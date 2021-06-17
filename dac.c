@@ -27,6 +27,3 @@ void setDacValue(uint32_t *dacValue){
 		DAC_SetBufferValue(DAC0,0U, *dacValue);
 	}
 }
-
-
-

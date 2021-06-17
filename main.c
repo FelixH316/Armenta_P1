@@ -8,7 +8,6 @@
 /* TODO: insert other include files here. */
 #include <stdint.h>
 #include <stdbool.h>
-//#include <stdio.h>
 #include "MK64F12.h"
 #include "fsl_clock.h"
 #include "fsl_gpio.h"
@@ -168,17 +167,6 @@ uint8_t main(void) {
 				}
 			}
 		}
-		/*
-		if(getSw2Flag()){
-			printf("\rISR SW2 \n");
-			clearSw2Flag();
-		}
-
-		if(getSw3Flag()){
-			printf("\rISR SW3\n");
-			clearSw3Flag();
-		}
-		*/
 	}
 	return 0 ;
 }
